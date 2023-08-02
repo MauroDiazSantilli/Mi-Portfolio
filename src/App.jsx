@@ -1,20 +1,17 @@
-import Sobre from "./components/views/Sobre";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Menu from "./components/common/Menu";
-import Contacto from "./components/views/Contacto"
-import Inicio from "./components/views/Inicio"
-import Habilidades from "./components/views/Habilidades"
-import Proyectos from "./components/views/Proyectos";
+import Footer from "./components/common/Footer";
+import { BrowserRouter } from "react-router-dom";
 
-function App() { 
+function App() {
+
   return (
-    <div>
-      <Menu />
-      <Inicio />
-      <Sobre />
-      <Habilidades />
-      <Proyectos />
-      <Contacto />
-    </div>
-  );
+    <BrowserRouter>
+    <Menu/>
+    <Footer/>
+    </BrowserRouter>
+  )
 }
-export default App;
+
+export default App
