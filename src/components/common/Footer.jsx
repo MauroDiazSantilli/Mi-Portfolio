@@ -1,6 +1,8 @@
+import "../../App.css"
+
 const Footer = () => {
     return (
-      <footer className="bg-dark text-light py-4 text-center">
+      <footer className="bg-dark text-light py-4 text-center mainSection">
         <p>&copy; Todos los derechos reservados</p>
       </footer>
     );
