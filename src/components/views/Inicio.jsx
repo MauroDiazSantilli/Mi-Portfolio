@@ -9,10 +9,10 @@ const Inicio = () => {
     <div name="inicio" className="inicio-container mainSection">
       <Container className="mainSection">
             <h2 className="inicio-heading">
-              Hola! Soy desarrollador FullStack egresado de Rolling Code
+              Hola! Soy Desarrollador Web Full Stack
             </h2>
             <p className="inicio-text">
-              Actualmente, me encanta trabajar en aplicaciones web usando tecnologias como
+              Actualmente, estoy trabajando en aplicaciones web usando tecnologias como
               React, Tailwind, Next.js y Mongodb.
             </p>
             <div>
